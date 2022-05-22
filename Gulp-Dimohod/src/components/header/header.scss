@@ -1,1 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@400;700&display=swap');
+html{
+  width:1920px;
+}
+.header{
+  display: flex;
+  position: absolute;
+  width: 1785px;
+  height: 97px;
+  left: 63px;
+  top: 26px;
+}
+
+.header_list{
+  display: block;
+  margin-top: 38px;
+  margin-left: 31px;
+  width: 665px;
+  height: 23px;
+  padding: 0;
+}
+.header_list_item{
+  display: inline-block;
+  margin-right: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #4C858B;
+}
+.logo img{
+  width: 100px;
+  height: 97px;
+}
+.burger img{
+  margin-top: 22px;
+  margin-left: 52px;
+  width: 56px;
+  height: 56px;
+}
+.contacts{
+  margin-left: 56px;
+  margin-top: 40px;
+  width:563px;
+  display: flex;
+}
+.number{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+}
+.greentext{
+  font-weight: 400;
+  color: #4C858B;
+}
+.boldtext{
+  font-weight: 700;
+}
+.call_me{
+  height: 19px;
+  margin-left: 71px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #AE2236;
+  border-bottom: 1px dashed #AE2236;
+  padding-bottom: 3px;
+}
+.social{
+  margin-left: 64px;
+}
+.vk{
+  height: 12px;
+  width: 20px;
+}
+.telegram{
+  margin-left: 12px;
+  height: 17px;
+  width: 19px;
+}
+.instagram{
+  margin-left: 16px;
+  height: 16px;
+  width: 15px;
+}
+.whatsapp{
+  margin-left: 18px;
+  height: 16px;
+  width: 15px;
+}
+.option{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 22px;
+  height: 56px;
+}
+.search, .heart{
+  margin-right: 16px;
+}
+
+.amount{
+  position: absolute;
+  top:22px;
+  right: 0;
+  width: 21px;
+  height: 21px;
+  border-radius: 10px;
+  background-color: #E33E54;
+  text-align: center;
+}
+.amount text{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 13px;
+  vertical-align: center;
+}
 
