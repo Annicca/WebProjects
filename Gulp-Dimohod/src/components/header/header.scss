@@ -1,16 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@400;700&display=swap');
-html{
-  width:1920px;
-}
-.header{
-  display: flex;
-  position: absolute;
-  width: 1785px;
-  height: 97px;
-  left: 63px;
-  top: 26px;
-}
 
+.header_list_link{
+  text-decoration:none;
+}
 .header_list{
   display: block;
   margin-top: 38px;
