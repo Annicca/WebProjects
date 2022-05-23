@@ -9,14 +9,14 @@ html{
   display: flex;
   position: absolute;
   width: 1785px;
-  height: 97px;
+  max-height: 97px;
   left: 63px;
   top: 26px;
 }
 .main{
   position: relative;
-  margin: 179px auto;
+  margin: 179px auto 0;
   width: 1221px;
-  background-color: greenyellow;
   font-family: 'Montserrat', sans-serif;
 }
+
