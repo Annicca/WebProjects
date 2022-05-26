@@ -5,6 +5,8 @@
   font-weight: 700;
   font-size: 60px;
   line-height: 73px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .breadcrumbs{
   max-width: 1218px;
@@ -30,27 +32,29 @@
 
 .description{
   max-width: 1218px;
-  margin-top: 81px;
+  margin: 80px auto 0;
   vertical-align: center;
   padding-top: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+
 }
-.main_link{
+.description_link{
   color: #E33E54;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 .quality_container{
-  width: 1318px;
+  max-width: 1218px;
   height: 601px;
+  margin: 11px auto 0;
   display: flex;
 }
 .process{
   max-width: 1218px;
-  margin: 63px auto 0;
+  margin: 68px auto 0;
   font-family: 'Montserrat', sans-serif;
 }
 .overline{
@@ -63,14 +67,12 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .question{
-  //display: inline-flex;
   max-width: 1218px;
-  //height: 487px;
   margin: 91px auto 0;
-  //padding-left: 1px
+
 }
 
 

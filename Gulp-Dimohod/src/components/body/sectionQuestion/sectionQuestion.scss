@@ -1,11 +1,44 @@
 
-.why_p{
+.question_text{
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: black;
   margin: 52px 3px 0;
 }
-.reason{
-
+.reasons_container{
+  display: flex;
+  margin-top: 51px;
+  max-width: 1218px;
+  justify-content: space-between;
 }
+.reason{
+  width: 387px;
+}
+.reason_title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+}
+.reason_list{
+  list-style-type: none;
+  max-width: 315px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0;
+  margin-top: -10px;
+}
+.reason_text_red{
+  font-weight: 600;
+  color: #E33E54;
+}
+.reason_text{
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
