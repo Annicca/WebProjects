@@ -1,1 +1,57 @@
+doctype html
+html
+  footer.footer
+    section.footer_section
+      article.footer_section_catalog
+        span.footer_section_title Каталог
+        ul.footer_section_list
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Дымоходы
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Дымососы
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Печи для дома
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Печи для бани
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Камины
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Силикат кальция
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Котлы
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Ещё
+      article.footer_section_info
+        span.footer_section_title Информация
+        ul.footer_section_list
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Каталог
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Установка и монтаж
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Отзывы
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Ликвидация товара
+          li.footer_section_list_item
+            a.footer_section_link(href = " ") Полезное
+          li.footer_section_list_item
+            a.footer_section_link Контакты
+          li.footer_section_list_item
+            a.footer_section_link Оплата и доставка
+      article.footer_section_time
+        span.footer_section_title Время работы
+        p.footer_section_time_text
+          img(src = "../../assets/images/clock.png" width = "15" height = "15")
+          span.footer_section_time_text_color  пн-пт
+          span  9:00 - 20:00
+          span.footer_section_time_text_color  сб-вс
+          span  10:00 - 18:00
+        p.footer_section_time_text
+          img(src = "../../assets/images/geo.png" width = "11" height = "16")
+          span   г. Санкт - Петербург ,ул. Тамбасова д.7
+        div.footer_section_time_social
+          include ../social/social
+          block content
+          +mixin_social_fill("#4C858B")
+
 

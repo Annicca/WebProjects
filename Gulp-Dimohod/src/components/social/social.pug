@@ -1,0 +1,18 @@
+doctype html
+html
+  mixin mixin_social_fill(color)
+    div.social
+      a(href='').social_link
+        svg.social_icon_vk(fill = color)
+          use(xlink:href='/assets/images/sprite.svg#vk')
+      a(href='').social_link
+        svg.social_icon_telegram(fill = color)
+          use(xlink:href='/assets/images/sprite.svg#telegram')
+      a(href='').social_link
+        svg.social_icon_instagram(fill = color)
+          use(xlink:href='/assets/images/sprite.svg#instagram')
+          svg.social_icon_instagram_circle(fill = "inherit" x = "4.8" y = "4.8" viewBox="0 0 15 16")
+            use(xlink:href='/assets/images/sprite.svg#instagram_circle')
+      a(href='').social_link
+        svg.social_icon_whatsapp(fill = color)
+          use(xlink:href='/assets/images/sprite.svg#whatsapp')

@@ -1,0 +1,30 @@
+.social{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.social_link{
+  text-decoration: none;
+}
+.social_icon_vk{
+  height: 14px;
+  width: 23px;
+}
+.social_icon_telegram{
+  height: 19px;
+  width: 22px;
+}
+.social_icon_instagram{
+  height: 19px;
+  width: 18px;
+  position: relative;
+}
+.instagram_circle{
+  width: 8px;
+  height: 8px;
+}
+.social_icon_whatsapp{
+  height: 19px;
+  width: 18px;
+
+}

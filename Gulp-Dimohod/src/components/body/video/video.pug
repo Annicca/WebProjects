@@ -1,0 +1,20 @@
+doctype html
+html
+  section.video
+    hr.overline
+    h2.headline_h2 Видео об установке
+    p.video_text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    article.video_container
+      div.video_container_background
+        svg.vide_bakground_part_one(width="472" height="294" x = "34" y = "108")
+          use(xlink:href='/assets/images/sprite.svg#Blob')
+          svg.vide_bakground_part_three(width="32" height="128" x = "64" y = "162")
+            use(xlink:href='/assets/images/sprite.svg#Group')
+        svg.vide_bakground_part_two(width="631" height="393" x = "560" y = "10")
+          use(xlink:href='/assets/images/sprite.svg#Blob-1')
+          svg.vide_bakground_part_for(width="32" height="128" x = "523" y = "-10")
+            use(xlink:href='/assets/images/sprite.svg#Group-1')
+      video.video_container_player(width="771" height="438" autoplay poster="../../assets/images/video.png")
+      button.video_container_button(type ="button")
+        a(href = "https://www.youtube.com/" target="_blank")
+          img.video_container_button_img(src="../../assets/images/videoButton.png" width = "37px" height = "41px")

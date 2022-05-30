@@ -1,12 +1,14 @@
 @import 'big_list/big_list';
 @import 'sectionQuestion/sectionQuestion';
 @import 'sectionQuality/sectionQuality';
+@import 'form/form';
+@import "video/video";
+@import "photo/photo";
 .main_title{
   font-weight: 700;
   font-size: 60px;
   line-height: 73px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-top: 56px;
 }
 .breadcrumbs{
   max-width: 1218px;
@@ -47,14 +49,13 @@
   text-decoration: none;
 }
 .quality_container{
-  max-width: 1218px;
-  height: 601px;
-  margin: 11px auto 0;
+  margin: 13px auto 0 auto;
   display: flex;
+  max-width: 100%;
 }
 .process{
-  max-width: 1218px;
-  margin: 68px auto 0;
+  margin-top: 60px;
+  max-width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 .overline{
@@ -70,10 +71,22 @@
   margin-top: 0;
 }
 .question{
-  max-width: 1218px;
-  margin: 91px auto 0;
-
+  margin-top: 80px;
+  max-width: 100%;
 }
+.consultation{
+  margin-top: 80px;
+  max-width: 100%;
+}
+.video{
+  margin-top: 108px;
+}
+.photo{
+  max-width: 1230px;
+  margin-top: 176px;
+  margin-bottom: 116px;
+}
+
 
 
 

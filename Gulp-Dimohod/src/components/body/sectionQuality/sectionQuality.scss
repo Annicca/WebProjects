@@ -1,12 +1,14 @@
 .quality_title{
-  width: 615px;
-  min-height: 123px;
+  min-width: 613px;
+  height: 123px;
 }
+
 .quality_headline1{
   font-weight: 600;
   font-size: 40px;
   line-height: 63px;
 }
+
 .quality_headline2{
   font-weight: 800;
   font-size: 50px;
@@ -15,20 +17,37 @@
   text-transform: uppercase;
   margin-top: -39px;
 }
+
 .quality_list{
-  max-width: 513px;
   margin-top: 38px;
-  margin-left: 11px;
+  max-width: 515px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 28px;
 }
-.quality_list_item{
+
+.quality_list_item::before{
   color: #EA6628;
-  padding-left: 5px;
+  content: "\2022";
+  font-weight: 1000;
   font-size: 25px;
-  margin-bottom: 20px;
-  line-height: 24px;
+  line-height: 25px;
+  padding-right: 17px;
+  display: inline-flex;
+  float: left;
 }
-.quality_list_item span{
+
+.quality_list_item{
   color: black;
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
+  float: left;
+}
+.quality_img{
+  margin-top: 3px;
 }

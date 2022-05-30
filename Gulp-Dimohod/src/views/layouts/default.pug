@@ -9,11 +9,10 @@ html(lang="ru")
     title #{title ? title : 'Монтаж дымоходов'}
     link(href="/assets/styles/main.css" rel="stylesheet")
   body
-    main
-      include ../../components/header/header
-      block content
-      include ../../components/body/body
-      block content
-      include ../../components/footer/footer
+    include ../../components/header/header
+    block content
+    include ../../components/body/body
+    block content
+    include ../../components/footer/footer
     script(src="/assets/js/index.js")
     block scripts

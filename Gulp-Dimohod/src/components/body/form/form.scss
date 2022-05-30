@@ -1,0 +1,81 @@
+.consultation_title{
+  text-align: center;
+  max-width: 1217px;
+  margin: 0 auto;
+}
+.consultation_headline{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+.consultation_specification{
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0;
+}
+.consultation .social{
+  margin-top: 40px;
+  margin-left: auto;
+  padding-right: 5px;
+  margin-right: auto;
+  height: 20px;
+  width: 203px;
+}
+
+.consultation_form{
+  max-width: 866px;
+  height: 260px;
+  margin: 37px auto 0;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.15);
+}
+.consultation_form_container{
+  max-width: 752px;
+  height: 142px;
+  position: relative;
+  top: 58px;
+  margin: auto;
+  text-align: left;
+}
+.consultation_form_text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.consultation_form_text_orange{
+  font-weight: 700;
+}
+.consultation_form_text_small{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+.form_consultation_name,.form_consultation_tel{
+  width: 223px;
+  height: 54px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B1B1B1;
+  padding-left: 17px;
+}
+.submit{
+  width: 240px;
+  min-height: 54px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background: #215359;
+  border: 1px solid #215359;
+  border-radius: 4px;
+}
+
