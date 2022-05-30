@@ -1,0 +1,42 @@
+.video_text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 66px;
+}
+.video_container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1218px;
+  position: relative;
+  margin-top: 65px;
+}
+.video_container_background{
+  margin-left: 34px;
+  position: relative;
+}
+.video_container_background svg{
+  position: relative;
+}
+.vide_bakground_part_two{
+  margin-left: 48px;
+}
+.video_container_player{
+  position: absolute;
+  top: 35px;
+  left: 217px;
+  right: auto;
+}
+.video_container_button{
+  position: absolute;
+  top: 60%;
+  left: 580px;
+  right: auto;
+  width: 10px;
+  height: 10px;
+}
+.video_container_button_img{
+  position: absolute;
+  left: -10px;
+  top: -15px;
+}

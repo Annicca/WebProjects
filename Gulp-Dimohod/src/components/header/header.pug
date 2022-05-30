@@ -3,33 +3,34 @@ html
   header.header
       div.logo
         img(src= "..//assets//images//logo.png")
-      div.burger
-        img(src= "..//assets//images//menu.png")
-      ul.header_list
-        a.header_list_link(href = "")
-          li.header_list_item каталог товаров
-        a.header_list_link(href = "")
-          li.header_list_item доставка и оплата
-        a.header_list_link(href = "")
-          li.header_list_item цены
-        a.header_list_link(href = "")
-          li.header_list_item контакты
+      div.menu
+        img.burger(src= "..//assets//images//menu.png")
+        ul.header_list
+          a.header_list_link(href = "")
+            li.header_list_item каталог товаров
+          a.header_list_link(href = "")
+            li.header_list_item доставка и оплата
+          a.header_list_link(href = "")
+            li.header_list_item цены
+          a.header_list_link(href = "")
+            li.header_list_item контакты
       div.contacts
         div.number
           text.greentext +7 (812)
           text.boldtext 509 21 98
         div.call_me
           text перезвоните мне
-        div.social
-          img.vk(src= "..//assets//images//vk.png")
-          img.telegram(src= "..//assets//images//telegram.png")
-          img.instagram(src= "..//assets//images//instagram.png")
-          img.whatsapp(src= "..//assets//images//whatsapp.png")
+        include ../social/social
+        block content
+        +mixin_social_fill('#4C858B')
       div.option
-        img.search(src= "..//assets//images//search.png")
-        img.heart(src= "..//assets//images//heart.png")
+        a(href = " ")
+          img.search(src= "..//assets//images//search.png")
+        a(href = " ")
+          img.heart(src= "..//assets//images//heart.png")
         div.bag_container
-          img.bag(src= "..//assets//images//bag.png")
-          span.amount
-            text 10
+          a(href = " ")
+            img.bag(src= "..//assets//images//bag.png")
+            span.amount
+              text 10
 

@@ -1,18 +1,20 @@
-
+@import '../social/social';
 .header_list_link{
   text-decoration:none;
 }
+.logo img {
+  width: 100px;
+  height: 97px;
+}
 .header_list{
-  display: block;
-  margin-top: 38px;
-  margin-left: 31px;
+  display: flex;
   width: 665px;
-  max-height: 23px;
-  padding: 0;
+  list-style-type: none;
+  justify-content: start;
+  padding-left: 0;
+
 }
 .header_list_item{
-  display: inline-block;
-  margin-right: 32px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -20,22 +22,29 @@
   line-height: 23px;
   text-transform: uppercase;
   color: #4C858B;
+  margin-right: 36px;
 }
-.logo img{
-  width: 100px;
-  height: 97px;
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 752px;
+  margin-left: -7px;
 }
-.burger img{
-  margin-top: 22px;
-  margin-left: 52px;
+
+.burger{
   width: 56px;
   height: 56px;
+  vertical-align: center;
 }
+
 .contacts{
-  margin-left: 56px;
-  margin-top: 40px;
-  width:563px;
+  margin-left: -7px;
+  justify-content: space-between;
   display: flex;
+  width: 563px;
+  align-items: center;
+
 }
 .number{
   font-family: 'Montserrat', sans-serif;
@@ -43,6 +52,7 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.08em;
+  width: 163px;
 }
 .greentext{
   font-weight: 400;
@@ -52,8 +62,7 @@
   font-weight: 700;
 }
 .call_me{
-  height: 19px;
-  margin-left: 71px;
+  height: 23px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -63,43 +72,33 @@
   text-transform: uppercase;
   color: #AE2236;
   border-bottom: 1px dashed #AE2236;
-  padding-bottom: 3px;
+  padding-top: 6px;
+  margin-left: 9px;
 }
-.social{
-  margin-left: 64px;
-}
-.vk{
-  height: 12px;
-  width: 20px;
-}
-.telegram{
-  margin-left: 12px;
-  height: 17px;
-  width: 19px;
-}
-.instagram{
-  margin-left: 16px;
-  height: 16px;
-  width: 15px;
-}
-.whatsapp{
-  margin-left: 18px;
-  height: 16px;
-  width: 15px;
-}
-.option{
-  display: flex;
-  margin-left: 60px;
-  margin-top: 22px;
-  height: 56px;
-}
-.search, .heart{
-  margin-right: 16px;
+.header .social{
+  margin-top: 10px;
+  width: 118px;
 }
 
+.option{
+  display: flex;
+  width:200px;
+  margin-top: 4px;
+  justify-content: space-between;
+}
+.option a{
+  text-decoration: none;
+}
+.bag_container {
+  position: relative;
+
+}
+.bag_container img{
+  vertical-align: bottom;
+}
 .amount{
   position: absolute;
-  top:22px;
+  top: 3px;
   right: 0;
   width: 21px;
   height: 21px;

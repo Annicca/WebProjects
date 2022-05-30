@@ -2,31 +2,44 @@
 @import 'body/body';
 @import 'footer/footer';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@400;600;700;800&display=swap');
-.header{
-  display: flex;
-  position: relative;
-  max-width: 1785px;
-  height: 97px;
-  left: 63px;
-  top: 26px
-}
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-}
-main{
-  position: relative;
   max-width: 1920px;
-  margin: 0 auto;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 1785px;
+  height: 97px;
+  margin-left: 63px;
+  margin-top: 26px;
+}
+
+.main{
+  //display: flex;
+  //justify-content: center;
+  max-width: 1900px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .main_container{
+  position: relative;
+  max-width: 1221px;
+  width:100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1248px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  top: 43px;
-
 }
+.footer{
+  position: relative;
+  bottom: 0;
+  max-width: 1920px;
+  height: 350px;
+  background-color: #0C2F33;
+}
+
 
