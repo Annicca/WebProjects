@@ -1,0 +1,28 @@
+.App {
+  font-family: "Calisto MT", sans-serif;
+  background-color: #FFE4C4	;
+  padding: 10px;
+  color: #755C48;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.in{
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 20px;
+  border: 2px solid #DEB887;
+  margin-right: 15px;
+
+}
+.list{
+  font-size: 20px;
+}
+.but{
+
+  border: 5px solid #755C48;
+  background-color: #755C48;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}
