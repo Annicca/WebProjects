@@ -15,8 +15,7 @@ body{
   position: relative;
   max-width: 1785px;
   height: 97px;
-  margin-left: 63px;
-  margin-top: 26px;
+  margin: 26px 72px 0 auto;
 }
 
 .main{
@@ -41,5 +40,14 @@ body{
   height: 350px;
   background-color: #0C2F33;
 }
+@media(max-width:768px){
+  .header{
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: flex-start;
+    height: 86px;
+    border-bottom: 1px solid #E5E5E5;
+  }
 
+}
 

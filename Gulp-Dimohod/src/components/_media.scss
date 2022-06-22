@@ -1,0 +1,15 @@
+@media(max-width:768px){
+  .menu, .contacts{
+    display: none;
+  }
+  .logo img{
+    width: 64px;
+    height: 62px;
+  }
+  .option{
+    width: 295px;
+  }
+  .option_burger{
+    display: block;
+  }
+}

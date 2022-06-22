@@ -1,10 +1,13 @@
 doctype html
+meta(name = "viewport" content = "width=device-width, initial-scale=1.0")
 html
   header.header
       div.logo
         img(src= "..//assets//images//logo.png")
       div.menu
-        img.burger(src= "..//assets//images//menu.png")
+        div.menu_burger
+          img(width = "56px" height = "56px" src= "..//assets//images//menu.png")
+          button.menu_burger_button
         ul.header_list
           a.header_list_link(href = "")
             li.header_list_item каталог товаров
@@ -33,4 +36,7 @@ html
             img.bag(src= "..//assets//images//bag.png")
             span.amount
               text 10
+        div.option_burger
+          img(width = "56px" height = "56px" src= "..//assets//images//menu.png")
+          button.option_burger_button
 
