@@ -95,4 +95,39 @@
   #comments{
     width: 100%;
   }
+  .consultation{
+    margin-top: 20px;
+    &_headline{
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      &_question{
+        display: none;
+      }
+    }
+    &_specification{
+      font-size: 16px;
+    }
+    .social{
+      margin-top: 35px;
+    }
+    &_form{
+      margin-top: 32px;
+      height: 390px;
+      &_container{
+        max-width: 629px;
+        text-align: center;
+        top: 50px;
+      }
+      &_text_small{
+        margin-top: 14px;
+      }
+      .form{
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+
+      }
+    }
+  }
 }
