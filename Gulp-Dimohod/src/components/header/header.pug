@@ -7,8 +7,8 @@ html
       div.menu
         div.menu_burger
           img(width = "56px" height = "56px" src= "..//assets//images//menu.png")
-          button.menu_burger_button
-        ul.header_list
+          button.menu_burger_button(type = "button")
+        ul.header_list(id = "list_menu")
           a.header_list_link(href = "")
             li.header_list_item каталог товаров
           a.header_list_link(href = "")
@@ -27,16 +27,16 @@ html
         block content
         +mixin_social_fill('#4C858B')
       div.option
-        a(href = " ")
+        a.option_item(href = " ")
           img.search(src= "..//assets//images//search.png")
-        a(href = " ")
+        a.option_item(href = " ")
           img.heart(src= "..//assets//images//heart.png")
-        div.bag_container
+        div.option_bag_container
           a(href = " ")
             img.bag(src= "..//assets//images//bag.png")
             span.amount
               text 10
         div.option_burger
           img(width = "56px" height = "56px" src= "..//assets//images//menu.png")
-          button.option_burger_button
+          button.option_burger_button(type = "button" id = "option_button")
 

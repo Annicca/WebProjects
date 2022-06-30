@@ -1,15 +1,39 @@
 @media(max-width:768px){
-  .menu, .contacts{
-    display: none;
-  }
   .logo img{
     width: 64px;
     height: 62px;
   }
+  .menu_burger, .contacts{
+    display: none;
+  }
+  .header_list{
+    position: absolute;
+    right: 0;
+    margin-top: 90px;
+    margin-bottom: 0;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+    transform: translateX(1000px);
+    transition: all .5s;
+    &_open{
+      transform: translateX(0px);
+    }
+    &_item{
+      margin-top: 10px;
+      float: right;
+      margin-right: 0;
+
+    }
+  }
   .option{
     width: 295px;
+    &_item, &_bag_container{
+      margin-right: 24px;
+    }
+    &_burger{
+       display: block;
+     }
   }
-  .option_burger{
-    display: block;
-  }
+
 }
