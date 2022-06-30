@@ -1,39 +1,47 @@
-@media(max-width:768px){
-  .logo img{
+@media(max-width:768px) {
+  .logo img {
     width: 64px;
     height: 62px;
   }
-  .menu_burger, .contacts{
+  .menu_burger, .contacts {
     display: none;
   }
-  .header_list{
+  .header_list {
     position: absolute;
     right: 0;
     margin-top: 90px;
     margin-bottom: 0;
     flex-direction: column;
     width: 250px;
-    background-color: white;
+    //background-color: white;
     transform: translateX(1000px);
     transition: all .5s;
-    &_open{
+
+    &_open {
       transform: translateX(0px);
     }
-    &_item{
+
+    &_item {
       margin-top: 10px;
       float: right;
       margin-right: 0;
-
     }
   }
-  .option{
+  .option {
     width: 295px;
-    &_item, &_bag_container{
+
+    &_item, &_bag_container {
       margin-right: 24px;
     }
-    &_burger{
-       display: block;
-     }
-  }
 
+    &_burger {
+      display: block;
+
+      transition: all .5s;
+      &_open {
+        transform: rotate(180deg);
+      }
+    }
+  }
 }
+
