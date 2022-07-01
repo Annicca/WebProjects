@@ -19,8 +19,6 @@ body{
 }
 
 .main{
-  //display: flex;
-  //justify-content: center;
   max-width: 1900px;
   padding-right: 15px;
   padding-left: 15px;
@@ -48,7 +46,9 @@ body{
     height: 86px;
     border-bottom: 1px solid #E5E5E5;
     z-index: 1;
-
+  }
+  .footer{
+    height: 70px;
   }
 }
 
