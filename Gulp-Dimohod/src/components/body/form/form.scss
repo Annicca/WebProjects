@@ -33,7 +33,6 @@
 }
 .consultation_form_container{
   max-width: 752px;
-  height: 142px;
   position: relative;
   top: 58px;
   margin: auto;
@@ -79,4 +78,6 @@
   border: 1px solid #215359;
   border-radius: 4px;
 }
-
+.submit_text_small{
+  display: none;
+}

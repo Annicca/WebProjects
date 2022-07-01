@@ -8,13 +8,15 @@ html
       include ../../social/social
       block content
       +mixin_social_fill('#EA6628')
-      div.consultation_form
-        div.consultation_form_container
-          span.consultation_form_text  Для
-            span.consultation_form_text_orange  консультации
-            span  заполните форму
-          p.consultation_form_text_small С Вами свяжутся в ближайшее время
-          form.form
-            input.form_consultation_name(type = 'text' name = 'name' placeholder = 'Ваше имя')
-            input.form_consultation_tel(type = 'tel' name = 'tel' placeholder ='Ваш телефон')
-            button.submit(type = 'submit') отправить
+    div.consultation_form
+      div.consultation_form_container
+        span.consultation_form_text  Для
+          span.consultation_form_text_orange  консультации
+          span  заполните форму
+        p.consultation_form_text_small С Вами свяжутся в ближайшее время
+        form.form
+          input.form_consultation_name(type = 'text' name = 'name' placeholder = 'Ваше имя')
+          input.form_consultation_tel(type = 'tel' name = 'tel' placeholder ='Ваш телефон')
+          button.submit(type = 'submit')
+            span.submit_text_big отправить
+            span.submit_text_small оставить заявку

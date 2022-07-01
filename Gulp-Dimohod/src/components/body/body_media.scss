@@ -120,13 +120,73 @@
         top: 50px;
       }
       &_text_small{
-        margin-top: 14px;
+        margin-top: 12px;
+        margin-bottom: 22px;
       }
       .form{
-        justify-content: center;
         flex-direction: column;
+        width: 354px;
         margin: 0 auto;
+        &_consultation_name, &_consultation_tel{
+          width: 337px;
+        }
+        &_consultation_tel{
+          margin-top: 14px;
+        }
+        .submit{
+          margin: 22px auto 0 auto;
+          &_text_small{
+            display: block;
+          }
+          &_text_big{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .video{
+    margin-top: 58px;
 
+    &_text{
+      margin-top: 28px;
+    }
+    &_container{
+      margin-top: 24px;
+      &_background{
+        display: none;
+      }
+      &_player{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 737px;
+      }
+      &_button{
+        top: 47%;
+        left: 370px;
+      }
+    }
+  }
+  .photo{
+    margin-top: 40px;
+
+    &_text{
+      margin-top: 28px;
+    }
+    &_container{
+      margin-top: 35px;
+      justify-content: flex-start;
+
+      &_img{
+        width: 226px;
+        height: 208px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+        img {
+          width: 226px;
+          height: 208px;
+        }
       }
     }
   }

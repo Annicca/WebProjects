@@ -12,13 +12,13 @@
     margin-top: 90px;
     margin-bottom: 0;
     flex-direction: column;
-    width: 250px;
-    //background-color: white;
-    transform: translateX(1000px);
+    width: 100%;
+    background-color: white;
+    transform: translateY(-300px);
     transition: all .5s;
-
+    z-index: -1;
     &_open {
-      transform: translateX(0px);
+      transform: translateY(0px);
     }
 
     &_item {
