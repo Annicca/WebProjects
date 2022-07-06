@@ -45,3 +45,36 @@
   }
 }
 
+@media(max-width:320px){
+  .logo img{
+    width: 48px;
+    height: 47px;
+  }
+  .option{
+    &_item{
+      display:none;
+    }
+    &_burger, &_burger img{
+      width: 44px;
+      height: 44px;
+    }
+    &_bag_container{
+      margin-right: 22px;
+      img{
+        width: 44px;
+        height: 44px;
+      }
+      .amount{
+        top: -2px;
+        right: -5px;
+      }
+    }
+  }
+  .header_list{
+    margin-top: 60px;
+    &_item{
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+}

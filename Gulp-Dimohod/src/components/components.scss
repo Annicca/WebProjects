@@ -51,4 +51,9 @@ body{
     height: 70px;
   }
 }
-
+@media(max-width:320px){
+  .header{
+    height: 63px;
+    margin-top: 16px;
+  }
+}
