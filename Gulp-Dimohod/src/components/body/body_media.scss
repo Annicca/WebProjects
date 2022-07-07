@@ -75,7 +75,7 @@
   }
   .reasons_container{
     flex-wrap: wrap;
-    justify-content: space-between;
+    //justify-content: space-between;
     max-width: 739px;
   }
   .reason{
@@ -253,7 +253,6 @@
   }
   .process {
     margin-top: 20px;
-
     &_list {
       column-count: 1;
       justify-content: space-between;
@@ -273,6 +272,68 @@
       :nth-child(2){
         margin-top: -10px;
       }
+    }
+  }
+  .question{
+    margin-top: 30px;
+    &_text{
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 26px;
+    }
+  }
+  .reasons_container{
+    margin-top: 24px;
+  }
+  .reason{
+    width: 100%;
+    &_title{
+      margin-top: 10px;
+    }
+    &_list, &_text{
+      width: auto;
+    }
+    &_text{
+      margin-bottom: 29px;
+    }
+  }
+  .consultation{
+    margin-top: 11px;
+    &_headline{
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &_specification{
+      font-size: 14px;
+      line-height: 26px;
+      margin: -9px;
+    }
+    &_form{
+      margin-top: 24px;
+      box-shadow: none;
+      &_container{
+        top: 26px;
+      }
+      &_text{
+        font-size: 18px;
+        line-height: 26px;
+      }
+      &_text_small{
+        font-size: 14px;
+        margin-top: 6px;
+        margin-bottom: 24px;
+      }
+    }
+    .form{
+      width: 100%;
+    }
+    .form_consultation_name, .form_consultation_tel{
+      width: 273px;
+    }
+    .submit{
+      width: 240px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
