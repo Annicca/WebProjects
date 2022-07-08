@@ -195,7 +195,7 @@
 @media(max-width:320px) {
   .main_title {
     font-size: 30px;
-    margin-top: 41px;
+    margin-top: 44px;
     line-height: 36px;
   }
   .breadcrumbs {
@@ -288,13 +288,13 @@
   .reason{
     width: 100%;
     &_title{
-      margin-top: 10px;
+      margin-top: 8px;
     }
     &_list, &_text{
       width: auto;
     }
     &_text{
-      margin-bottom: 29px;
+      margin-bottom: 31px;
     }
   }
   .consultation{
@@ -357,6 +357,7 @@
   }
   .photo{
     margin-top: 44px;
+    margin-bottom: 39px;
     &_text{
       font-size: 14px;
       line-height: 26px;
@@ -365,6 +366,7 @@
     &_container{
       margin-top: 15px;
       justify-content: space-between;
+
       &_img{
         width: 130px;
         height: 120px;
