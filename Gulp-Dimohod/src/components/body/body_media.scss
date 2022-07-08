@@ -311,6 +311,7 @@
     &_form{
       margin-top: 24px;
       box-shadow: none;
+      height: 345px;
       &_container{
         top: 26px;
       }
@@ -334,6 +335,62 @@
       width: 240px;
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+  .video{
+    margin-top: 47px;
+    &_text{
+      font-size: 14px;
+      line-height: 26px;
+    }
+    &_container{
+      margin-top: 24px;
+      &_player{
+        width: 287px;
+        height: auto;
+      }
+      &_button{
+        left: 47%;
+        top: 44%;
+      }
+    }
+  }
+  .photo{
+    margin-top: 44px;
+    &_text{
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 18px;
+    }
+    &_container{
+      margin-top: 15px;
+      justify-content: space-between;
+      &_img{
+        width: 130px;
+        height: 120px;
+        margin-bottom: 16px;
+        margin-right: 0;
+        img {
+          width: 130px;
+          height: 120px;
+        }
+      }
+      &_rectangle_top {
+        height: 2px;
+        width: 30px;
+      }
+      &_rectangle_right {
+        height: 30px;
+        width: 2px;
+      }
+      &_rectangle_bottom {
+        height: 2px;
+        width: 30px;
+      }
+      &_rectangle_left {
+        height: 30px;
+        width: 2px;
+      }
     }
   }
 }
