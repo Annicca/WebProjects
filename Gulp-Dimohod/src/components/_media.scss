@@ -1,0 +1,42 @@
+@media(max-width:768px){
+  .menu_burger, .contacts{
+    display: none;
+  }
+  .menu_list{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 90px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    transform: translateX(1000px);
+    transition: all .5s;
+
+    }
+    &_item{
+      padding-top: 20px;
+      float: right;
+      margin-right: 15px;
+    }
+    &--open{
+      transform: translateX(0px);
+    }
+  }
+  .logo img{
+    width: 64px;
+    height: 62px;
+  }
+  .option{
+    width: 295px;
+
+    &_item, .bag_container{
+      margin-right: 23px;
+    }
+  }
+  .option_burger{
+    display: block;
+
+  }
+
