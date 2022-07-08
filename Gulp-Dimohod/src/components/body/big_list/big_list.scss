@@ -3,11 +3,11 @@
   column-count: 2;
   column-gap: 28px;
   counter-reset: numbers;
-  vertical-align: center;
   min-height: 288px;
   margin-top: 51px;
   list-style: none;
   padding: 0;
+  //vertical-align: center;
 }
 .process_list_item{
   display: inline-flex;

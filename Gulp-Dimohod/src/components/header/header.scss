@@ -1,18 +1,18 @@
 @import '../social/social';
-.header_list_link{
-  text-decoration:none;
+a{
+  text-decoration: none;
 }
 .logo img {
   width: 100px;
   height: 97px;
 }
+<<<<<<< Updated upstream
 .header_list{
   display: flex;
   width: 665px;
   list-style-type: none;
   justify-content: start;
   padding-left: 0;
-
 }
 .header_list_item{
   font-family: 'Montserrat', sans-serif;
@@ -25,18 +25,62 @@
   margin-right: 36px;
 }
 
+=======
+>>>>>>> Stashed changes
 .menu{
   display: flex;
   justify-content: space-between;
   width: 752px;
   margin-left: -7px;
 }
-
-.burger{
+.menu_burger, .option_burger{
+  vertical-align: center;
   width: 56px;
   height: 56px;
-  vertical-align: center;
+  position: relative;
 }
+.option_burger{
+  display: none;
+}
+.menu_burger_button, .option_burger_button{
+  position: absolute;
+<<<<<<< Updated upstream
+  top: 15%;
+  left: 15%;
+  background-color: rgba(255,255,255,0);
+  border: 0;
+  height: 30px;
+  width: 50px;
+=======
+  top: 25%;
+  left: 25%;
+  background-color: rgba(255,255,255,0);
+  border: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.menu_list{
+  display: flex;
+  width: 665px;
+  list-style-type: none;
+  justify-content: start;
+  padding-left: 0;
+
+}
+
+.menu_list_item{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #4C858B;
+  margin-right: 36px;
+>>>>>>> Stashed changes
+}
+
 
 .contacts{
   margin-left: -7px;
@@ -86,14 +130,18 @@
   margin-top: 4px;
   justify-content: space-between;
 }
+<<<<<<< Updated upstream
 .option a{
   text-decoration: none;
 }
+.option_bag_container {
+=======
 .bag_container {
+>>>>>>> Stashed changes
   position: relative;
 
 }
-.bag_container img{
+.option_bag_container img{
   vertical-align: bottom;
 }
 .amount{
@@ -115,4 +163,4 @@
   line-height: 13px;
   vertical-align: center;
 }
-
+@import "header_media";

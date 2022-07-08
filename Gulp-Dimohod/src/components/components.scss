@@ -15,13 +15,11 @@ body{
   position: relative;
   max-width: 1785px;
   height: 97px;
-  margin-left: 63px;
-  margin-top: 26px;
+  margin: 26px auto 0 auto;
+  padding-right: 7px;
 }
 
 .main{
-  //display: flex;
-  //justify-content: center;
   max-width: 1900px;
   padding-right: 15px;
   padding-left: 15px;
@@ -41,5 +39,23 @@ body{
   height: 350px;
   background-color: #0C2F33;
 }
-
-
+@media(max-width:768px){
+  .header{
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 0;
+    align-items: flex-start;
+    height: 86px;
+    border-bottom: 1px solid #E5E5E5;
+    z-index: 1;
+  }
+  .footer{
+    height: 70px;
+  }
+}
+@media(max-width:320px){
+  .header{
+    height: 63px;
+    margin-top: 16px;
+  }
+}

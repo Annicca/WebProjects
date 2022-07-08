@@ -33,7 +33,6 @@
 }
 .consultation_form_container{
   max-width: 752px;
-  height: 142px;
   position: relative;
   top: 58px;
   margin: auto;
@@ -46,6 +45,7 @@
 }
 .consultation_form_text_orange{
   font-weight: 700;
+  color: #EA6628;
 }
 .consultation_form_text_small{
   font-weight: 400;
@@ -78,4 +78,6 @@
   border: 1px solid #215359;
   border-radius: 4px;
 }
-
+.submit_text_small{
+  display: none;
+}
